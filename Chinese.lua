@@ -18,12 +18,12 @@ NM(RF("合法机器人","合法自瞄","触发方式","Aim Key"),"自瞄按键")
 NM(RF("合法机器人","合法自瞄","触发方式","Toggle Key"),"自瞄切换按键")
 
 
-NM(RF("合法机器人","合法自瞄","Weapon"),"武器")--Weapon
+NM(RF("合法机器人","合法自瞄","Weapon"),"武器")
 NM(RF("合法机器人","合法自瞄","武器","Auto Fire"),"自动开火")
 NM(RF("合法机器人","合法自瞄","武器","Fire On Press"),"按键开火")
 NM(RF("合法机器人","合法自瞄","武器","Auto Pistol Interval"),"自动手枪间隔")
 
-NM(RF("合法机器人","合法自瞄","Hitbox Selection"),"自瞄部位选择")--Hitbox Selection
+NM(RF("合法机器人","合法自瞄","Hitbox Selection"),"自瞄部位选择")
 for i = 1, 11, 1 do
     NM(RF("合法机器人","合法自瞄","自瞄部位选择",WEN[i], "Hitbox Advance Multiplier"),"自瞄部位切换速度")
     NM(RF("合法机器人","合法自瞄","自瞄部位选择",WEN[i], "Nearest To Crosshair"),"优先准星附近")
@@ -32,12 +32,12 @@ end
 -------------------------------------------------------
 
 NM(RF("合法机器人","Triggerbot"),"自动扳机")
-NM(RF("合法机器人","自动扳机","Toggle"),"触发方式")--Toggle
+NM(RF("合法机器人","自动扳机","Toggle"),"触发方式")
 NM(RF("合法机器人","自动扳机","触发方式","Enable"),"开启扳机")
 NM(RF("合法机器人","自动扳机","触发方式","Trigger Key"),"扳机按键")
 NM(RF("合法机器人","自动扳机","触发方式","Auto Fire"),"无需按键自动开火")
 
-NM(RF("合法机器人","自动扳机","Weapon"),"武器")--Weapon
+NM(RF("合法机器人","自动扳机","Weapon"),"武器")
 for i = 1, 11, 1 do
     NM(RF("合法机器人","自动扳机","武器",WEN[i],"Trigger Delay"),"扳机延迟")
     NM(RF("合法机器人","自动扳机","武器",WEN[i],"Trigger Burst"),"触发扳机后的连续开枪时间")
